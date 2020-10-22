@@ -1,18 +1,2 @@
 
-bc1179e3af7a394a712cb0146c99be6717784d38	{"key":"make-fetch-happen:request-cache:https://registry.npmjs.org/-/npm/v1/security/audits/quick","integrity":null,"time":1601634928050}
-df8bd32b9b6cfb33531f86b0dfbee456399ce996	{"key":"make-fetch-happen:request-cache:https://registry.npmjs.org/-/npm/v1/security/audits/quick","integrity":null,"time":1601634992714}
-7d96f2ca4851e1ddf4a67b4d0fb4638163d5884b	{"key":"make-fetch-happen:request-cache:https://registry.npmjs.org/-/npm/v1/security/audits/quick","integrity":null,"time":1601635007483}
-1ba0db20fd1c24b638b464a66d3970a15548f706	{"key":"make-fetch-happen:request-cache:https://registry.npmjs.org/-/npm/v1/security/audits/quick","integrity":null,"time":1601635714088}
-f92d3fd02330c64e81a933fbf4dac0862d1ff9f4	{"key":"make-fetch-happen:request-cache:https://registry.npmjs.org/-/npm/v1/security/audits/quick","integrity":null,"time":1601636224107}
-0b6d1f59bb87d1a08d0dc4b7d5c48d6afb38e3b8	{"key":"make-fetch-happen:request-cache:https://registry.npmjs.org/-/npm/v1/security/audits/quick","integrity":null,"time":1601639324677}
-61809864b73281a62a289b2a2af557a538c1853f	{"key":"make-fetch-happen:request-cache:https://registry.npmjs.org/-/npm/v1/security/audits/quick","integrity":null,"time":1601644663698}
-c4d3a727b991d85813c6395f080b833b7403d716	{"key":"make-fetch-happen:request-cache:https://registry.npmjs.org/-/npm/v1/security/audits/quick","integrity":null,"time":1601644959705}
-be8388e4f49ed5391f67b32b060bbd0fb7c425c5	{"key":"make-fetch-happen:request-cache:https://registry.npmjs.org/-/npm/v1/security/audits/quick","integrity":null,"time":1601644988386}
-f56a2d13a9c3002825a6ddb4ac5fc3dfba0ff759	{"key":"make-fetch-happen:request-cache:https://registry.npmjs.org/-/npm/v1/security/audits/quick","integrity":null,"time":1601645008915}
-1ff6bda52c6ebc5d3952ab3ff041aeaf07feb63a	{"key":"make-fetch-happen:request-cache:https://registry.npmjs.org/-/npm/v1/security/audits/quick","integrity":null,"time":1601645031309}
-040bae662ee9c761f33e48a0a2ba3b712a09a6b7	{"key":"make-fetch-happen:request-cache:https://registry.npmjs.org/-/npm/v1/security/audits/quick","integrity":null,"time":1601645054300}
-7e1c2d2a60f163dbf96c6b9fd184fb3de2afe5fa	{"key":"make-fetch-happen:request-cache:https://registry.npmjs.org/-/npm/v1/security/audits/quick","integrity":null,"time":1601676885098}
-68d62a1e20dcd14b30ed7b3d65de40cf001e75cf	{"key":"make-fetch-happen:request-cache:https://registry.npmjs.org/-/npm/v1/security/audits/quick","integrity":null,"time":1601843955067}
-204f0646d077edf99b86f56cd455315a70732c0c	{"key":"make-fetch-happen:request-cache:https://registry.npmjs.org/-/npm/v1/security/audits/quick","integrity":null,"time":1601883726884}
-3ec2a10974536b3e95fd2b5fa126d608262ca43e	{"key":"make-fetch-happen:request-cache:https://registry.npmjs.org/-/npm/v1/security/audits/quick","integrity":null,"time":1603320148606}
-c957cbb42a8bb162b20d3e9f793ade81dbcc3f41	{"key":"make-fetch-happen:request-cache:https://registry.npmjs.org/-/npm/v1/security/audits/quick","integrity":null,"time":1603320276759}
+23c26efe10fd0af0f87839f649194f0dabcee14b	{"key":"make-fetch-happen:request-cache:https://registry.npmjs.org/-/npm/v1/security/audits/quick","integrity":null,"time":1603366173226}
