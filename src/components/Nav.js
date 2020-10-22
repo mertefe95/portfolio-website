@@ -1,5 +1,4 @@
-import React, { useState } from 'react';
-import Zoom from 'react-reveal/Zoom';
+import React from 'react';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab, faFacebook, faFacebookF, faGithub, faInstagram, faLinkedin} from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
