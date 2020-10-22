@@ -9,7 +9,7 @@ function About() {
     return (
         <div className="about h-screen text-white flex justify-center mt-20">
             <div className="about-img-div pt-10 ml-8">
-                <img className="about-img h-48 rounded-full" src={myImage} />
+                <img className="about-img h-48 rounded-full" alt="author-photo" src={myImage} />
             </div>
 
             <div className="about-content pl-12 mt-20 font-semibold tracking-widest leading-8 relative">
