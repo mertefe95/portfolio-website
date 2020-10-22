@@ -11,18 +11,18 @@ function Nav() {
 return(
 <header className="header h-40 bg-white flex items-center">
     <div className="logo-div">
-        <h2>Gelicek</h2>
+        <h2></h2>
     </div>
 
-    <nav className="nav flex absolute right-0 pr-10 font-bold">
-        <ul className="links flex pr-5 tracking-wider">
+    <nav className="nav flex absolute right-0 pr-10 font-bold md:px-10 sm:mx-24">
+        <ul className="links flex pr-5 tracking-wider sm:flex-col sm:text-sm sm:tracking-wide sm:list-disc">
             <li className="px-4"><a href="/">HOME</a></li>
             <li className="px-4"><a href="/about">ABOUT ME</a></li>
             <li className="px-4"><a href="#">CONTACT ME</a></li>
             <li className="px-4"><a href="#">MY WORKS</a></li>
         </ul>
 
-        <ul className="icons flex">
+        <ul className="icons flex sm:flex-col">
             
             <li className="px-4"><a href="#"><FontAwesomeIcon icon={faInstagram}/></a></li>
             <li className="px-4"><a href="#"><FontAwesomeIcon icon={faFacebook}/></a></li>
