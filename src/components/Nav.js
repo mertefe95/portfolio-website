@@ -17,7 +17,7 @@ return(
     <nav className="nav flex absolute right-0 pr-10 font-bold md:px-10 sm:mx-24">
         <ul className="links flex pr-5 tracking-wider sm:flex-col sm:text-sm sm:tracking-wide sm:list-disc">
             <li className="px-4"><a href="/">HOME</a></li>
-            <li className="px-4"><a href="/about">ABOUT ME</a></li>
+            <li className="px-4"><a href="./about">ABOUT ME</a></li>
             <li className="px-4"><a href="#">CONTACT ME</a></li>
             <li className="px-4"><a href="#">MY WORKS</a></li>
         </ul>
