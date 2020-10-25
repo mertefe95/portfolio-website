@@ -27,7 +27,7 @@ return(
             <li className="px-4"><a href="#"><FontAwesomeIcon icon={faInstagram}/></a></li>
             <li className="px-4"><a href="#"><FontAwesomeIcon icon={faFacebook}/></a></li>
             <li className="px-4"><a href="#"><FontAwesomeIcon icon={faGithub}/></a></li>
-            <li className="px-4"><a href="#"><FontAwesomeIcon icon={faLinkedin}/></a></li>
+            <li className="px-4"><a href="#"><FontAwesomeIcon icon={faLinkedin}/></a></li>  
         </ul>
     </nav>
 

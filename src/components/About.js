@@ -7,12 +7,14 @@ import TailwindCSS from "../assets/tailwind.css";
 
 function About() {
     return (
-        <div className="about h-screen text-white flex justify-center mt-20">
-            <div className="about-img-div pt-10 ml-8">
-                <img className="about-img h-48 rounded-full" alt="author-photo" src={myImage} />
+        <div className="about text-white flex flex-col justify-center mt-20 mb-40">
+            
+            
+            <div className="about-img-div m-8 rounded-3xl pl-8">
+                <img className="about-img h-64" alt="author-photo" src={myImage} />
             </div>
 
-            <div className="about-content pl-12 mt-20 font-semibold tracking-widest leading-8 relative">
+            <div className="about-content px-8 mt-16 font-semibold tracking-widest leading-8 relative">
                 <h2>Welcome to my Portfolio Website.</h2>
                 <p>I'm new to the Tech and Developer, Coding Industry. I've been gaining skills in the areas of HTML, CSS, TailwindCSS, JavaScript, React JS, Next JS.</p>
                 <p>I've been practicing them with some projects and honing my skills. And now I'm open and ready to practice my skills further and develop real world projects.</p>
@@ -30,8 +32,8 @@ function About() {
                     </ul>
             </div>
 
-            <div className="about-icons h-54 text-white mb-40 absolute bottom-0 text-6xl">
-                <ul className="flex justify-around items-center">
+            <div className="about-icons text-white text-6xl mt-16">
+                <ul className="flex justify-around items-center ">
                     <li className="px-4"><FontAwesomeIcon icon={faHtml5}/> </li>
                     <li className="px-4"><FontAwesomeIcon icon={faCss3}/> </li>
                     <li className="px-4"><FontAwesomeIcon icon={faJs}/> </li>
