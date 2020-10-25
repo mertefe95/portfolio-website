@@ -19,7 +19,7 @@ return(
             <li className="px-4"><a href="/">HOME</a></li>
             <li className="px-4"><a href="./about">ABOUT ME</a></li>
             <li className="px-4"><a href="#">CONTACT ME</a></li>
-            <li className="px-4"><a href="#">MY WORKS</a></li>
+            <li className="px-4"><a href="/myworks">MY WORKS</a></li>
         </ul>
 
         <ul className="icons flex sm:flex-col">

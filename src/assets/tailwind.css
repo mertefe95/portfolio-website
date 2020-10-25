@@ -36,3 +36,9 @@ html {
 .footer {
     opacity: 0.6;
 }
+
+.myworks-container {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0.4em;
+    margin: 10px 10px;
+}
