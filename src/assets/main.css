@@ -18830,25 +18830,27 @@ video {
 
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 .header {
-  opacity: 0.6;
-  font-family: 'Open Sans';
+  opacity: 0.9;
+  font-family: 'Roboto';
 }
 
 html {
-  background: url("../assets/images/background.png") no-repeat center center/cover;
+  background: url("/images/background2.png") no-repeat center center/cover;
 }
 
 .main {
-  font-family: 'Open Sans';
+  font-family: 'Staatliches';
 }
 
 .main h2 {
-  font-family: 'Open Sans';
+  font-family: 'Staatliches';
 }
 
 .footer {
-  opacity: 0.6;
+  opacity: 0.3;
 }
 
 .myworks-body {

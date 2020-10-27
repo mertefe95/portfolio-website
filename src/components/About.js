@@ -1,7 +1,6 @@
 import { faCss3, faHtml5, faJs, faReact } from "@fortawesome/free-brands-svg-icons";
 import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import myImage from "../assets/images/my-image.jpg";
 import TailwindCSS from "../assets/tailwind.css";
 
 
@@ -11,7 +10,7 @@ function About() {
             
             
             <div className="about-img-div m-8 rounded-3xl pl-8">
-                <img className="about-img h-64" alt="author-photo" src={myImage} />
+                <img className="about-img h-64" alt="author-photo" src="/images/my-image.jpg" />
             </div>
 
             <div className="about-content px-8 mt-16 font-bold text-2xl tracking-widest leading-8 relative">
