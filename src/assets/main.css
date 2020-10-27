@@ -18820,7 +18820,6 @@ video {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family:'Open Sans';
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
@@ -18828,6 +18827,8 @@ video {
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
 
 .header {
   opacity: 0.6;
@@ -18850,10 +18851,8 @@ html {
   opacity: 0.6;
 }
 
-.myworks-container {
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 0.4em;
-  margin: 10px 10px;
+.myworks-body {
+  font-family: 'Krona One';
 }
 
 @media (max-width: 640px) {
