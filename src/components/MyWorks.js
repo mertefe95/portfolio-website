@@ -26,6 +26,26 @@ return (
                     </a>
             </div>
 
+            <div className="js-social-div  mt-4">
+                <div className="grid-item-content  mb-4">
+                    <h2 className="uppercase text-2xl mb-4">JS.Social Project (Recreation from scratch)</h2>
+                    <a className="uppercase text-x1" href="https://github.com/mertefe95/js-social-project">Click for Github Repo Link</a>
+                    </div>
+                    <a href="https://js-social-project.vercel.app/"> CLICK ON IMAGE FOR WEBSITE
+                    <img src="/images/js-social.png" className="mt-4" />
+                    </a>
+            </div>
+
+            <div className="tip-calculator-div  mt-4">
+                <div className="grid-item-content  mb-4">
+                    <h2 className="uppercase text-2xl mb-4">Tip Calculator Project (Simple HTML, CSS, JS)</h2>
+                    <a className="uppercase text-x1" href="https://github.com/mertefe95/tip-calculator">Click for Github Repo Link</a>
+                    </div>
+                    <a href="https://js-social-project.vercel.app/"> CLICK ON IMAGE FOR WEBSITE
+                    <img src="/images/tip-calculator.png" className="mt-4" />
+                    </a>
+            </div>
+
 
             <div className="fanbird-div  mt-4">
                 <div className="grid-item-content  mb-4">
