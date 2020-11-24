@@ -6,14 +6,14 @@ import TailwindCSS from "../assets/tailwind.css";
 
 function About() {
     return (
-        <div className="about text-black flex flex-col justify-center mt-20 mb-40">
+        <div className="about text-black flex flex-col justify-center mt-20 mb-40 mx-12">
             
             
             <div className="about-img-div m-8 rounded-3xl pl-8">
                 <img className="about-img h-64" alt="author-photo" src="/images/my-image.jpg" />
             </div>
 
-            <div className="about-content px-8 mt-16 font-bold text-2xl tracking-widest leading-8 relative">
+            <div className="about-content px-8 mt-16 font-bold lg:text-2xl tracking-widest leading-8 relative">
                 <h2 className="mb-4">Welcome to my Portfolio Website.</h2>
                 <p className="py-2">I'm new to the Tech and Development, Coding Industry. I've been gaining skills in the areas of HTML, CSS, TailwindCSS, JavaScript, React JS, Next JS.</p>
                 <p className="py-2">I've been practicing them with some projects and honing my skills. And now I'm open and ready to practice my skills further and develop real world projects.</p>
@@ -31,7 +31,7 @@ function About() {
                     </ul>
             </div>
 
-            <div className="about-icons text-black text-6xl mt-16">
+            <div className="about-icons text-black text-3xl lg:text-6xl mt-16">
                 <ul className="flex justify-around items-center ">
                     <li className="px-4"><FontAwesomeIcon icon={faHtml5}/> </li>
                     <li className="px-4"><FontAwesomeIcon icon={faCss3}/> </li>
