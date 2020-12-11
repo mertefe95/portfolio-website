@@ -2,6 +2,7 @@ import React from 'react';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab, faFacebook, faFacebookF, faGithub, faInstagram, faLinkedin} from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { Link } from "react-router-dom";
 import TailwindCSS from  "../assets/tailwind.css";
 
 library.add(fab)
@@ -24,10 +25,10 @@ return(
 
         <ul className="icons flex sm:flex-col">
             
-            <li className="px-4"><a href="#"><FontAwesomeIcon icon={faInstagram}/></a></li>
-            <li className="px-4"><a href="#"><FontAwesomeIcon icon={faFacebook}/></a></li>
-            <li className="px-4"><a href="#"><FontAwesomeIcon icon={faGithub}/></a></li>
-            <li className="px-4"><a href="#"><FontAwesomeIcon icon={faLinkedin}/></a></li>  
+            <li className="px-4"><a href="https://www.instagram.com/mertefeisikgor/"><FontAwesomeIcon icon={faInstagram}/></a></li>
+            <li className="px-4"><a href="https://www.facebook.com/efeisikgor/"><FontAwesomeIcon icon={faFacebook}/></a></li>
+            <li className="px-4"><a href="https://github.com/mertefe95"><FontAwesomeIcon icon={faGithub}/></a></li>
+            <li className="px-4"><a href="https://www.linkedin.com/in/mert-efe-i%C5%9F%C4%B1kg%C3%B6r-997712164/"><FontAwesomeIcon icon={faLinkedin}/></a></li>  
         </ul>
     </nav>
 
