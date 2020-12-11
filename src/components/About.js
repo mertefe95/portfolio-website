@@ -15,9 +15,9 @@ function About() {
 
             <div className="about-content px-8 mt-16 font-bold lg:text-2xl tracking-widest leading-8 relative">
                 <h2 className="mb-4">Welcome to my Portfolio Website.</h2>
-                <p className="py-2">I'm new to the Tech and Development, Coding Industry. I've been gaining skills in the areas of HTML, CSS, TailwindCSS, JavaScript, React JS, Next JS.</p>
-                <p className="py-2">I've been practicing them with some projects and honing my skills. And now I'm open and ready to practice my skills further and develop real world projects.</p>
-                <p className="py-2">Please see view my work section to inspect my work and my previous projects more closely.</p>
+                <p >I'm new to the Tech and Development, Coding Industry. I've been gaining skills in the areas of HTML, CSS, TailwindCSS, JavaScript, React JS, Next JS.</p>
+                <p>I've been practicing them with some projects and honing my skills. And now I'm open and ready to practice my skills further and develop real world projects.</p>
+                <p>Please see view my work section to inspect my work and my previous projects more closely.</p>
             
                 <br/>
                 <br/>
