@@ -18833,8 +18833,8 @@ video {
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 .header {
-  opacity: 0.9;
-  font-family: 'Roboto';
+  opacity: 0.7;
+  font-family: 'Playfair Display';
 }
 
 html {
