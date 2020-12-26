@@ -155,48 +155,172 @@ return (
         <Button size="small">Learn More</Button>
       </CardActions>
     </Card>
+            </div>
+
+    <div className="tip-calculator-div  mt-40">
+    <Card className={classes.root}>
+    <CardContent>
+        <Typography className={classes.title} color="textSecondary" gutterBottom>
+            Project 4
+        </Typography>
+        <Typography variant="h5" component="h2">
+            TIP CALCULATOR PROJECT
+        </Typography>
+        <Button variant="contained"><a href="https://github.com/mertefe95/tip-calculator">View on Github</a></Button>
+        <Button variant="contained"><a href="https://tip-calculator-xi.vercel.app/">View on Vercel</a></Button>
+        <Button variant="contained"><a href="/images/tip-calculator.png">View As Image</a></Button>
+
+        <ul className="flex">
+        <li><Chip label="HTML" color="primary"/></li>
+        <li><Chip label="CSS" color="primary"/></li>
+        <li><Chip label="JavaScript" color="primary"/></li>
+        </ul>
+
+        <ul className="flex">
+            <li><Chip label="Vercel" color="secondary"/></li>
+            <li><Chip label="Git" color="secondary"/></li>
+            <li><Chip label="Github" color="secondary"/></li>
+        </ul>
+
+        
+        <Typography className={classes.pos} color="textSecondary">
+          adjective
+        </Typography>
+        <Typography variant="body2" component="p">
+          well meaning and kindly.
+          <br />
+          {'"a benevolent smile"'}
+        </Typography>
+      </CardContent>
+      <CardActions>
+        <Button size="small">Learn More</Button>
+      </CardActions>
+    </Card>
+    </div>
+
+            <div className="fanbird-div  mt-40">
+            <Card className={classes.root}>
+    <CardContent>
+        <Typography className={classes.title} color="textSecondary" gutterBottom>
+            Project 5
+        </Typography>
+        <Typography variant="h5" component="h2">
+            FANBIRD PROJECT 
+        </Typography>
+        <Button variant="contained"><a href="https://github.com/mertefe95/fanbird-web-1">View on Github</a></Button>
+        <Button variant="contained"><a href="https://fanbird-web-1.vercel.app/">View on Vercel</a></Button>
+        <Button variant="contained"><a href="/images/fanbird-img.png">View As Image</a></Button>
+
+        <ul className="flex">
+        <li><Chip label="React JS (Next.JS + TypeScript)" color="primary"/></li>
+        <li><Chip label="TailwindCSS" color="primary"/></li>
+        <li><Chip label="TailwindUI Components & Templates" color="primary"/></li>
+        </ul>
+
+        <ul className="flex">
+            <li><Chip label="Vercel" color="secondary"/></li>
+            <li><Chip label="Git" color="secondary"/></li>
+            <li><Chip label="Github" color="secondary"/></li>
+        </ul>
+
+        
+        <Typography className={classes.pos} color="textSecondary">
+          adjective
+        </Typography>
+        <Typography variant="body2" component="p">
+          well meaning and kindly.
+          <br />
+          {'"a benevolent smile"'}
+        </Typography>
+      </CardContent>
+      <CardActions>
+        <Button size="small">Learn More</Button>
+      </CardActions>
+    </Card>
+    </div>
+
+            <div className="assginment-two-div mt-40">
+            <Card className={classes.root}>
+    <CardContent>
+        <Typography className={classes.title} color="textSecondary" gutterBottom>
+            Project 6
+        </Typography>
+        <Typography variant="h5" component="h2">
+            COOLHAUS ICE CREAM PAGE DESIGN PROJECT
+        </Typography>
+        <Button variant="contained"><a href="https://github.com/mertefe95/assingment-project-two-nextjs-tailwind">View on Github</a></Button>
+        <Button variant="contained"><a href="https://assignment-project-react-tailwind.vercel.app/">View on Vercel</a></Button>
+        <Button variant="contained"><a href="/images/assignmentproject2.png">View As Image</a></Button>
+
+        <ul className="flex">
+        <li><Chip label="React JS (Next.JS + TypeScript)" color="primary"/></li>
+        <li><Chip label="TailwindCSS" color="primary"/></li>
+        <li><Chip label="TailwindUI Components & Templates" color="primary"/></li>
+        </ul>
+
+        <ul className="flex">
+            <li><Chip label="Vercel" color="secondary"/></li>
+            <li><Chip label="Git" color="secondary"/></li>
+            <li><Chip label="Github" color="secondary"/></li>
+        </ul>
+
+        
+        <Typography className={classes.pos} color="textSecondary">
+          adjective
+        </Typography>
+        <Typography variant="body2" component="p">
+          well meaning and kindly.
+          <br />
+          {'"a benevolent smile"'}
+        </Typography>
+      </CardContent>
+      <CardActions>
+        <Button size="small">Learn More</Button>
+      </CardActions>
+    </Card>
         
             </div>
 
-            <div className="tip-calculator-div  mt-40">
-                <div className="grid-item-content  mb-4 pt-6">
-                    <h2 className="uppercase text-2xl mb-4">Tip Calculator Project  </h2>
-                    <a className="uppercase text-x1" href="https://github.com/mertefe95/tip-calculator">Click for Github Repo Link</a>
-                    </div>
-                    <a href="https://js-social-project.vercel.app/"> CLICK ON IMAGE FOR WEBSITE (This project is created via HTML, CSS, JS mainly.)
-                    <img src="/images/tip-calculator.png" className="mt-4 pt-6" />
-                    </a>
-            </div>
+            <div className="assginment-one-div mt-40">
+            <Card className={classes.root}>
+    <CardContent>
+        <Typography className={classes.title} color="textSecondary" gutterBottom>
+            Project 6
+        </Typography>
+        <Typography variant="h5" component="h2">
+            SWELL VERIFICATION PAGE DESING PROJECT
+        </Typography>
+        <Button variant="contained"><a href="https://github.com/mertefe95/assingment-project-two-nextjs-tailwind">View on Github</a></Button>
+        <Button variant="contained"><a href="https://assignment-project-react-tailwind.vercel.app">View on Vercel</a></Button>
+        <Button variant="contained"><a href="/images/assignment-project-img.png">View As Image</a></Button>
 
+        <ul className="flex">
+        <li><Chip label="React JS (Next.JS + TypeScript)" color="primary"/></li>
+        <li><Chip label="TailwindCSS" color="primary"/></li>
+        <li><Chip label="TailwindUI Components & Templates" color="primary"/></li>
+        </ul>
 
-            <div className="fanbird-div  mt-40">
-                <div className="grid-item-content  mb-4 pt-6">
-                    <h2 className="uppercase text-2xl mb-4">Fanbird Project <span > ( Front End, Participated as a Contributor ) </span> </h2>
-                    <a className="uppercase text-x1" href="https://github.com/mertefe95/fanbird-web-1">Click for Github Repo Link</a>
-                    </div>
-                    <a href="https://fanbird-web-1.vercel.app/"> CLICK ON IMAGE FOR WEBSITE ( This project is created via Next.js and TypeScript mainly. )
-                    <img src="/images/fanbird-img.png" className="mt-4 pt-6" />
-                    </a>
-            </div>
+        <ul className="flex">
+            <li><Chip label="Vercel" color="secondary"/></li>
+            <li><Chip label="Git" color="secondary"/></li>
+            <li><Chip label="Github" color="secondary"/></li>
+        </ul>
 
-            <div className="assginment-div mt-40">
-                <div className="grid-item-content mb-4 pt-6">
-                    <h2 className="uppercase text-2xl mb-4">Simple Swell Email Verification Page Design</h2>
-                    <a className="uppercase text-x1" href="https://github.com/mertefe95/assignment-project-react-tailwind">Click for Github Repo Link</a>
-                    </div>
-                    <a href="https://assignment-project-react-tailwind.vercel.app/"> CLICK ON IMAGE FOR WEBSITE
-                    <img src="/images/assignment-project-img.png" className="mt-4 pt-6" />
-                    </a>
-            </div>
-
-            <div className="assginment-two-div mt-40">
-                <div className="grid-item-content mb-4 pt-6">
-                    <h2 className="uppercase text-2xl mb-4">Simple Coolhaus Ice Cream Page Design</h2>
-                    <a className="uppercase text-x1" href="https://github.com/mertefe95/assingment-project-two-nextjs-tailwind">Click for Github Repo Link</a>
-                    </div>
-                    <a href="https://assignment-project-react-tailwind.vercel.app/"> CLICK ON IMAGE FOR WEBSITE
-                    <img src="/images/assignmentproject2.png" className="mt-4 pt-6"/>
-                    </a>
+        
+        <Typography className={classes.pos} color="textSecondary">
+          adjective
+        </Typography>
+        <Typography variant="body2" component="p">
+          well meaning and kindly.
+          <br />
+          {'"a benevolent smile"'}
+        </Typography>
+      </CardContent>
+      <CardActions>
+        <Button size="small">Learn More</Button>
+      </CardActions>
+    </Card>
+        
             </div>
 
 
