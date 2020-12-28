@@ -81,7 +81,7 @@ function MyWorks() {
           <Paper className={classes.paper}>
             <h2>NYX BAR PROJECT</h2>
 
-            <ul className="buttons flex py-6">
+            <ul className="buttons flex justify-around py-6">
               <li className="p-4">
                 <Button variant="contained">
                   <a href="https://github.com/mertefe95/nyx-bar-project">View on Github</a>
@@ -129,7 +129,7 @@ function MyWorks() {
           <Paper className={classes.paper}>
             <h2>JS.SOCIAL PROJECT </h2>
 
-            <ul className="buttons flex py-6">
+            <ul className="buttons flex justify-around py-6">
               <li className="p-4">
                 <Button variant="contained">
                   <a href="https://github.com/mertefe95/js-social-project">View on Github</a>
@@ -177,7 +177,7 @@ function MyWorks() {
           <Paper className={classes.paper}>
             <h2>TIP CALCULATOR PROJECT</h2>
 
-            <ul className="buttons flex py-6">
+            <ul className="buttons flex justify-around py-6">
               <li className="p-4">
                 <Button variant="contained">
                   <a href="https://github.com/mertefe95/tip-calculator">View on Github</a>
@@ -225,7 +225,7 @@ function MyWorks() {
           <Paper className={classes.paper}>
             <h2 className="paper-heading">FANBIRD PROJECT</h2>
 
-            <ul className="buttons flex py-6">
+            <ul className="buttons flex justify-around py-6">
               <li className="p-4">
                 <Button variant="contained">
                   <a href="https://github.com/mertefe95/fanbird-web-1">View on Github</a>
@@ -273,7 +273,7 @@ function MyWorks() {
           <Paper className={classes.paper}>
             <h2 className="paper-heading">COOLHAUS ICE CREAM PAGE DESIGN PROJECT</h2>
 
-            <ul className="buttons flex py-6">
+            <ul className="buttons flex justify-around py-6">
               <li className="p-4">
                 <Button variant="contained">
                   <a href="https://github.com/mertefe95/assingment-project-two-nextjs-tailwind">
@@ -323,7 +323,7 @@ function MyWorks() {
           <Paper className={classes.paper}>
             <h2>SWELL VERIFICATION PAGE DESING PROJECT</h2>
 
-            <ul className="buttons flex py-6">
+            <ul className="buttons flex justify-around py-6">
               <li className="p-4">
                 <Button variant="contained">
                   <a href="https://github.com/mertefe95/assingment-project-two-nextjs-tailwind">
@@ -372,7 +372,7 @@ function MyWorks() {
           <Paper className={classes.paper}>
             <h2>FOLLOWUPS.CO PAGE DESIGN PROJECT</h2>
 
-            <ul className="buttons flex py-6">
+            <ul className="buttons flex justify-around py-6">
               <li className="p-4">
                 <Button variant="contained">
                   <a href="https://github.com/mertefe95/Followups.co-project/">View on Github</a>
@@ -420,7 +420,7 @@ function MyWorks() {
           <Paper className={classes.paper}>
             <h2>PORTFOLIO WEBSITE PROJECT (CURRENTLY BEING VIEWED)</h2>
 
-            <ul className="buttons flex py-6">
+            <ul className="buttons flex justify-center py-6">
               <li className="p-4">
                 <Button variant="contained">
                   <a href="https://github.com/mertefe95/portfolio-website">View on Github</a>
