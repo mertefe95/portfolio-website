@@ -30,7 +30,7 @@ function MyWorks() {
           <Paper className={classes.paper}>
             <h2>HUG A MUG COFFEE SHOP PROJECT</h2>
 
-            <ul className="buttons flex justify-around">
+            <ul className="buttons flex justify-around py-6">
               <li className="p-4">
                 <Button variant="contained">
                   <a href="https://github.com/mertefe95/cafe-shop-react-tailwindcss">
@@ -52,25 +52,25 @@ function MyWorks() {
             </ul>
 
             <ul className="flex flex-col justify-around items-center">
-              <li>
+              <li className="py-1">
                 <Chip label="React JS ( CRA + ReactRouterDom)" color="primary" />
               </li>
-              <li>
+              <li className="py-1">
                 <Chip label="TailwindCSS" color="primary" />
               </li>
-              <li>
+              <li className="py-1">
                 <Chip label="Material UI" color="primary" />
               </li>
             </ul>
 
             <ul className="flex flex-col justify-around pt-4">
-              <li>
+              <li className="py-1">
                 <Chip label="Vercel" color="secondary" />
               </li>
-              <li>
+              <li className="py-1">
                 <Chip label="Git" color="secondary" />
               </li>
-              <li>
+              <li className="py-1">
                 <Chip label="Github" color="secondary" />
               </li>
             </ul>
@@ -81,7 +81,7 @@ function MyWorks() {
           <Paper className={classes.paper}>
             <h2>NYX BAR PROJECT</h2>
 
-            <ul className="buttons flex">
+            <ul className="buttons flex py-6">
               <li className="p-4">
                 <Button variant="contained">
                   <a href="https://github.com/mertefe95/nyx-bar-project">View on Github</a>
@@ -100,25 +100,25 @@ function MyWorks() {
             </ul>
 
             <ul className="flex flex-col justify-around items-center">
-              <li>
+              <li className="py-1">
                 <Chip label="React JS ( CRA + ReactRouterDom)" color="primary" />
               </li>
-              <li>
+              <li className="py-1">
                 <Chip label="TailwindCSS" color="primary" />
               </li>
-              <li>
+              <li className="py-1">
                 <Chip label="Material UI" color="primary" />
               </li>
             </ul>
 
             <ul className="flex flex-col justify-around pt-4">
-              <li>
+              <li className="py-1">
                 <Chip label="Vercel" color="secondary" />
               </li>
-              <li>
+              <li className="py-1">
                 <Chip label="Git" color="secondary" />
               </li>
-              <li>
+              <li className="py-1">
                 <Chip label="Github" color="secondary" />
               </li>
             </ul>
@@ -129,7 +129,7 @@ function MyWorks() {
           <Paper className={classes.paper}>
             <h2>JS.SOCIAL PROJECT </h2>
 
-            <ul className="buttons flex">
+            <ul className="buttons flex py-6">
               <li className="p-4">
                 <Button variant="contained">
                   <a href="https://github.com/mertefe95/js-social-project">View on Github</a>
@@ -148,25 +148,25 @@ function MyWorks() {
             </ul>
 
             <ul className="flex flex-col justify-around items-center">
-              <li>
+              <li className="py-1">
                 <Chip label="React JS ( Next.JS + TypeScript)" color="primary" />
               </li>
-              <li>
+              <li className="py-1">
                 <Chip label="TailwindCSS" color="primary" />
               </li>
-              <li>
+              <li className="py-1">
                 <Chip label="Material UI" color="primary" />
               </li>
             </ul>
 
             <ul className="flex flex-col justify-around pt-4">
-              <li>
+              <li className="py-1">
                 <Chip label="Vercel" color="secondary" />
               </li>
-              <li>
+              <li className="py-1">
                 <Chip label="Git" color="secondary" />
               </li>
-              <li>
+              <li className="py-1">
                 <Chip label="Github" color="secondary" />
               </li>
             </ul>
@@ -177,7 +177,7 @@ function MyWorks() {
           <Paper className={classes.paper}>
             <h2>TIP CALCULATOR PROJECT</h2>
 
-            <ul className="buttons flex">
+            <ul className="buttons flex py-6">
               <li className="p-4">
                 <Button variant="contained">
                   <a href="https://github.com/mertefe95/tip-calculator">View on Github</a>
@@ -196,25 +196,25 @@ function MyWorks() {
             </ul>
 
             <ul className="flex flex-col">
-              <li>
+              <li className="py-1">
                 <Chip label="HTML" color="primary" />
               </li>
-              <li>
+              <li className="py-1">
                 <Chip label="CSS" color="primary" />
               </li>
-              <li>
+              <li className="py-1">
                 <Chip label="JavaScript" color="primary" />
               </li>
             </ul>
 
             <ul className="flex flex-col pt-4">
-              <li>
+              <li className="py-1">
                 <Chip label="Vercel" color="secondary" />
               </li>
-              <li>
+              <li className="py-1">
                 <Chip label="Git" color="secondary" />
               </li>
-              <li>
+              <li className="py-1">
                 <Chip label="Github" color="secondary" />
               </li>
             </ul>
@@ -225,7 +225,7 @@ function MyWorks() {
           <Paper className={classes.paper}>
             <h2 className="paper-heading">FANBIRD PROJECT</h2>
 
-            <ul className="buttons flex">
+            <ul className="buttons flex py-6">
               <li className="p-4">
                 <Button variant="contained">
                   <a href="https://github.com/mertefe95/fanbird-web-1">View on Github</a>
@@ -244,25 +244,25 @@ function MyWorks() {
             </ul>
 
             <ul className="flex flex-col justify-around items-center">
-              <li>
+              <li className="py-1">
                 <Chip label="React JS (Next.JS + TypeScript)" color="primary" />
               </li>
-              <li>
+              <li className="py-1">
                 <Chip label="TailwindCSS" color="primary" />
               </li>
-              <li>
+              <li className="py-1">
                 <Chip label="TailwindUI Components & Templates" color="primary" />
               </li>
             </ul>
 
             <ul className="flex flex-col justify-around pt-4">
-              <li>
+              <li className="py-1">
                 <Chip label="Vercel" color="secondary" />
               </li>
-              <li>
+              <li className="py-1">
                 <Chip label="Git" color="secondary" />
               </li>
-              <li>
+              <li className="py-1">
                 <Chip label="Github" color="secondary" />
               </li>
             </ul>
@@ -273,7 +273,7 @@ function MyWorks() {
           <Paper className={classes.paper}>
             <h2 className="paper-heading">COOLHAUS ICE CREAM PAGE DESIGN PROJECT</h2>
 
-            <ul className="buttons flex">
+            <ul className="buttons flex py-6">
               <li className="p-4">
                 <Button variant="contained">
                   <a href="https://github.com/mertefe95/assingment-project-two-nextjs-tailwind">
@@ -294,25 +294,25 @@ function MyWorks() {
             </ul>
 
             <ul className="flex flex-col justify-around items-center">
-              <li>
+              <li className="py-1">
                 <Chip label="React JS (Next.JS + TypeScript)" color="primary" />
               </li>
-              <li>
+              <li className="py-1">
                 <Chip label="TailwindCSS" color="primary" />
               </li>
-              <li>
+              <li className="py-1">
                 <Chip label="TailwindUI Components & Templates" color="primary" />
               </li>
             </ul>
 
             <ul className="flex flex-col justify-around pt-4">
-              <li>
+              <li className="py-1">
                 <Chip label="Vercel" color="secondary" />
               </li>
-              <li>
+              <li className="py-1">
                 <Chip label="Git" color="secondary" />
               </li>
-              <li>
+              <li className="py-1">
                 <Chip label="Github" color="secondary" />
               </li>
             </ul>
@@ -323,7 +323,7 @@ function MyWorks() {
           <Paper className={classes.paper}>
             <h2>SWELL VERIFICATION PAGE DESING PROJECT</h2>
 
-            <ul className="buttons flex">
+            <ul className="buttons flex py-6">
               <li className="p-4">
                 <Button variant="contained">
                   <a href="https://github.com/mertefe95/assingment-project-two-nextjs-tailwind">
@@ -343,25 +343,25 @@ function MyWorks() {
               </li>
             </ul>
             <ul className="flex flex-col justify-around items-center">
-              <li>
+              <li className="py-1">
                 <Chip label="React JS (Next.JS + TypeScript)" color="primary" />
               </li>
-              <li>
+              <li className="py-1">
                 <Chip label="TailwindCSS" color="primary" />
               </li>
-              <li>
+              <li className="py-1">
                 <Chip label="TailwindUI Components & Templates" color="primary" />
               </li>
             </ul>
 
             <ul className="flex flex-col justify-around pt-4">
-              <li>
+              <li className="py-1">
                 <Chip label="Vercel" color="secondary" />
               </li>
-              <li>
+              <li className="py-1">
                 <Chip label="Git" color="secondary" />
               </li>
-              <li>
+              <li className="py-1">
                 <Chip label="Github" color="secondary" />
               </li>
             </ul>
@@ -372,7 +372,7 @@ function MyWorks() {
           <Paper className={classes.paper}>
             <h2>FOLLOWUPS.CO PAGE DESIGN PROJECT</h2>
 
-            <ul className="buttons flex">
+            <ul className="buttons flex py-6">
               <li className="p-4">
                 <Button variant="contained">
                   <a href="https://github.com/mertefe95/Followups.co-project/">View on Github</a>
@@ -391,25 +391,25 @@ function MyWorks() {
             </ul>
 
             <ul className="flex flex-col justify-around items-center">
-              <li>
+              <li className="py-1">
                 <Chip label="React JS" color="primary" />
               </li>
-              <li>
+              <li className="py-1">
                 <Chip label="TailwindCSS" color="primary" />
               </li>
-              <li>
+              <li className="py-1">
                 <Chip label="TailwindUI Components & Templates" color="primary" />
               </li>
             </ul>
 
             <ul className="flex flex-col justify-around pt-4">
-              <li>
+              <li className="py-1">
                 <Chip label="Vercel" color="secondary" />
               </li>
-              <li>
+              <li className="py-1">
                 <Chip label="Git" color="secondary" />
               </li>
-              <li>
+              <li className="py-1">
                 <Chip label="Github" color="secondary" />
               </li>
             </ul>
@@ -420,7 +420,7 @@ function MyWorks() {
           <Paper className={classes.paper}>
             <h2>PORTFOLIO WEBSITE PROJECT (CURRENTLY BEING VIEWED)</h2>
 
-            <ul className="buttons flex">
+            <ul className="buttons flex py-6">
               <li className="p-4">
                 <Button variant="contained">
                   <a href="https://github.com/mertefe95/portfolio-website">View on Github</a>
@@ -429,28 +429,28 @@ function MyWorks() {
             </ul>
 
             <ul className="flex flex-col justify-around items-center">
-              <li>
+              <li className="py-1">
                 <Chip label="React JS (CRA + ReactRouterDom)" color="primary" />
               </li>
-              <li>
+              <li className="py-1">
                 <Chip label="TailwindCSS" color="primary" />
               </li>
-              <li>
+              <li className="py-1">
                 <Chip label="Material UI" color="primary" />
               </li>
             </ul>
 
             <ul className="flex flex-col justify-around pt-4">
-              <li>
+              <li className="py-1">
                 <Chip label="Netlify" color="secondary" />
               </li>
-              <li>
+              <li className="py-1">
                 <Chip label="GoDaddy" color="secondary" />
               </li>
-              <li>
+              <li className="py-1">
                 <Chip label="Git" color="secondary" />
               </li>
-              <li>
+              <li className="py-1">
                 <Chip label="Github" color="secondary" />
               </li>
             </ul>
