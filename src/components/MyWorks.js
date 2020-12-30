@@ -26,7 +26,6 @@ function MyWorks() {
   return (
     <main className="myworks-body">
       <Grid container spacing={2} justify="center" alignItems="center">
-
       <Grid item xs={12} md={7}>
           <Paper className={classes.paper}>
             <h2>BLOG APP PROJECT ( FULLSTACK )</h2>
@@ -78,6 +77,60 @@ function MyWorks() {
             <ul className="flex flex-col justify-around pt-4">
               <li className="py-1">
                 <Chip label="Vercel" color="secondary" />
+              </li>
+              <li className="py-1">
+                <Chip label="Git" color="secondary" />
+              </li>
+              <li className="py-1">
+                <Chip label="Github" color="secondary" />
+              </li>
+            </ul>
+          </Paper>
+        </Grid>
+
+      <Grid item xs={12} md={7}>
+          <Paper className={classes.paper}>
+            <h2>SOCIALIZE CHAT APP</h2>
+
+            <ul className="buttons flex justify-around py-6">
+              <li className="p-4">
+                <Button variant="contained">
+                  <a href="https://github.com/mertefe95/socialize-chat-app">
+                    View on Github
+                  </a>
+                </Button>
+              </li>
+              <li className="p-4">
+                {/** not good */}
+                <Button variant="contained">
+                  <a href="https://socialize-live-chat-app.herokuapp.com">View on Heroku</a>
+                </Button>
+              </li>
+              <li className="p-4">
+                <Button variant="contained">
+                  <a href="/images/socialize-chat-app.png">View As Image</a>
+                </Button>
+              </li>
+            </ul>
+
+            <ul className="flex flex-col justify-around items-center">
+              <li className="py-1">
+                <Chip label="Node JS + Express JS + Static Folder Structure" color="primary" />
+              </li>
+              <li className="py-1">
+                <Chip label="Socket IO" color="primary" />
+              </li>
+              <li className="py-1">
+                <Chip label="Vanilla JavaScript" color="primary" />
+              </li>
+              <li className="py-1">
+                <Chip label="CSS" color="primary" />
+              </li>
+            </ul>
+
+            <ul className="flex flex-col justify-around pt-4">
+              <li className="py-1">
+                <Chip label="Heroku" color="secondary" />
               </li>
               <li className="py-1">
                 <Chip label="Git" color="secondary" />
