@@ -26,6 +26,70 @@ function MyWorks() {
   return (
     <main className="myworks-body">
       <Grid container spacing={2} justify="center" alignItems="center">
+
+      <Grid item xs={12} md={7}>
+          <Paper className={classes.paper}>
+            <h2>BLOG APP PROJECT ( FULLSTACK )</h2>
+
+            <ul className="buttons flex justify-around py-6">
+              <li className="p-4">
+                <Button variant="contained">
+                  <a href="https://github.com/mertefe95/revised-blogapp-client">
+                    View Client Code on Github
+                  </a>
+                </Button>
+              </li>
+              <li className="p-4">
+                <Button variant="contained">
+                  <a href="https://github.com/mertefe95/revised-blogapp-server">
+                    View Backend Code on Github
+                  </a>
+                </Button>
+              </li>
+              <li className="p-4">
+                {/** not good */}
+                <Button variant="contained">
+                  <a href="https://revised-blogapp-client.vercel.app/">View on Vercel</a>
+                </Button>
+              </li>
+              <li className="p-4">
+                <Button variant="contained">
+                  <a href="/images/revised-blog-app.png">View As Image</a>
+                </Button>
+              </li>
+            </ul>
+
+            <ul className="flex flex-col justify-around items-center">
+              <li className="py-1">
+                <Chip label="React JS ( CRA + ReactRouterDom + Axios)" color="primary" />
+              </li>
+              <li className="py-1">
+                <Chip label="Node JS + Express JS + MongoDB (Atlas)" color="primary" />
+              </li>
+    
+              <li className="py-1">
+                <Chip label="SCSS" color="primary" />
+              </li>
+              <li className="py-1">
+                <Chip label="Material UI" color="primary" />
+              </li>
+            </ul>
+
+            <ul className="flex flex-col justify-around pt-4">
+              <li className="py-1">
+                <Chip label="Vercel" color="secondary" />
+              </li>
+              <li className="py-1">
+                <Chip label="Git" color="secondary" />
+              </li>
+              <li className="py-1">
+                <Chip label="Github" color="secondary" />
+              </li>
+            </ul>
+          </Paper>
+        </Grid>
+
+
         <Grid item xs={12} md={6}>
           <Paper className={classes.paper}>
             <h2>HUG A MUG COFFEE SHOP PROJECT</h2>
@@ -438,7 +502,7 @@ function MyWorks() {
               <li className="py-1">
                 <Chip label="Material UI" color="primary" />
               </li>
-            </ul>
+            </ul> 
 
             <ul className="flex flex-col justify-around pt-4">
               <li className="py-1">
