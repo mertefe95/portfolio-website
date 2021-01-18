@@ -5,38 +5,43 @@
 @tailwind utilities;
 
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Krona+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 .header {
-    opacity: 0.7;
-    font-family: 'Playfair Display';
+  opacity: 0.7;
+  font-family: "Playfair Display";
 }
 
 html {
-    background: url("/images/background2.png") no-repeat center center/cover;
+  background: url("/images/background2.png") no-repeat center center/cover;
 }
 
 .main {
-    font-family: 'Staatliches';
+  font-family: "Staatliches";
 }
-
 
 .main h2 {
-    font-family: 'Staatliches';
+  font-family: "Staatliches";
 }
 .footer {
-    opacity: 0.3;
+  opacity: 0.3;
 }
 
 .myworks-body {
-    font-family: 'Krona One';
+  font-family: "Staatliches";
+}
+
+.my-works-h2 {
+  color: rgb(46, 43, 43);
+  font-size: 21px;
+  letter-spacing: 1.2px;
 }

@@ -25,12 +25,12 @@ function MyWorks() {
 
   return (
     <main className="myworks-body">
-      <Grid container spacing={2} justify="center" alignItems="center">
-      <Grid item xs={12} md={7}>
-          <Paper className={classes.paper}>
-            <h2>BLOG APP PROJECT ( FULLSTACK )</h2>
+      <Grid container spacing={8} style={{ paddingRight: "20px", paddingLeft: "20px" }} justify="center" alignItems="center">
+      <Grid item xs={12} md={7} style={{ paddingTop: "50px"}} className="grid-piece">
+          <Paper className={classes.paper} style={{ boxShadow: "inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255), 0.3em 0.3em 1em rgba(0, 0, 0, 0.3)" }}>
+            <h2 className="my-works-h2">BLOG APP PROJECT ( FULLSTACK )</h2>
 
-            <ul className="buttons flex justify-around py-6">
+            <ul className="buttons flex justify-around py-6 sm:justify-center sm:items-center sm:flex-col">
               <li className="p-4">
                 <Button variant="contained">
                   <a href="https://github.com/mertefe95/revised-blogapp-client">
@@ -88,9 +88,9 @@ function MyWorks() {
           </Paper>
         </Grid>
 
-      <Grid item xs={12} md={7}>
-          <Paper className={classes.paper}>
-            <h2>SOCIALIZE CHAT APP</h2>
+      <Grid item xs={12} md={7} className="grid-piece">
+          <Paper className={classes.paper}  style={{ borderRadius: "10px", boxShadow: "inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255), 0.3em 0.3em 1em rgba(0, 0, 0, 0.3)" }}>
+            <h2 className="my-works-h2">SOCIALIZE CHAT APP</h2>
 
             <ul className="buttons flex justify-around py-6">
               <li className="p-4">
@@ -143,9 +143,9 @@ function MyWorks() {
         </Grid>
 
 
-        <Grid item xs={12} md={6}>
-          <Paper className={classes.paper}>
-            <h2>HUG A MUG COFFEE SHOP PROJECT</h2>
+        <Grid item xs={12} md={6} className="grid-left">
+          <Paper className={classes.paper} style={{ borderRadius: "10px", boxShadow: "inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255), 0.3em 0.3em 1em rgba(0, 0, 0, 0.3)" }} >
+            <h2 className="my-works-h2">HUG A MUG COFFEE SHOP PROJECT</h2>
 
             <ul className="buttons flex justify-around py-6">
               <li className="p-4">
@@ -194,9 +194,9 @@ function MyWorks() {
           </Paper>
         </Grid>
 
-        <Grid item xs={12} md={6}>
-          <Paper className={classes.paper}>
-            <h2>NYX BAR PROJECT</h2>
+        <Grid item xs={12} md={6} className="grid-right">
+          <Paper className={classes.paper} style={{ borderRadius: "10px", boxShadow: "inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255), 0.3em 0.3em 1em rgba(0, 0, 0, 0.3)" }}>
+            <h2 className="my-works-h2">NYX BAR PROJECT</h2>
 
             <ul className="buttons flex justify-around py-6">
               <li className="p-4">
@@ -242,9 +242,9 @@ function MyWorks() {
           </Paper>
         </Grid>
 
-        <Grid item xs={12} md={6}>
-          <Paper className={classes.paper}>
-            <h2>JS.SOCIAL PROJECT </h2>
+        <Grid item xs={12} md={6} className="grid-left">
+          <Paper className={classes.paper} style={{ borderRadius: "10px", boxShadow: "inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255), 0.3em 0.3em 1em rgba(0, 0, 0, 0.3)" }}>
+            <h2 className="my-works-h2">JS.SOCIAL PROJECT </h2>
 
             <ul className="buttons flex justify-around py-6">
               <li className="p-4">
@@ -290,9 +290,9 @@ function MyWorks() {
           </Paper>
         </Grid>
 
-        <Grid item xs={12} md={6}>
-          <Paper className={classes.paper}>
-            <h2>TIP CALCULATOR PROJECT</h2>
+        <Grid item xs={12} md={6} className="grid-right">
+          <Paper className={classes.paper}  style={{ borderRadius: "10px", boxShadow: "inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255), 0.3em 0.3em 1em rgba(0, 0, 0, 0.3)" }}>
+            <h2 className="my-works-h2">TIP CALCULATOR PROJECT</h2>
 
             <ul className="buttons flex justify-around py-6">
               <li className="p-4">
@@ -338,9 +338,9 @@ function MyWorks() {
           </Paper>
         </Grid>
 
-        <Grid item xs={12} md={6}>
-          <Paper className={classes.paper}>
-            <h2 className="paper-heading">FANBIRD PROJECT</h2>
+        <Grid item xs={12} md={6} className="grid-left">
+          <Paper className={classes.paper}  style={{ borderRadius: "10px", boxShadow: "inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255), 0.3em 0.3em 1em rgba(0, 0, 0, 0.3)" }}>
+            <h2 className="my-works-h2">FANBIRD PROJECT</h2>
 
             <ul className="buttons flex justify-around py-6">
               <li className="p-4">
@@ -386,9 +386,9 @@ function MyWorks() {
           </Paper>
         </Grid>
 
-        <Grid item xs={12} md={6}>
-          <Paper className={classes.paper}>
-            <h2 className="paper-heading">COOLHAUS ICE CREAM PAGE DESIGN PROJECT</h2>
+        <Grid item xs={12} md={6} className="grid-right">
+          <Paper className={classes.paper}  style={{ borderRadius: "10px", boxShadow: "inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255), 0.3em 0.3em 1em rgba(0, 0, 0, 0.3)" }}>
+            <h2 className="my-works-h2">COOLHAUS ICE CREAM PAGE DESIGN PROJECT</h2>
 
             <ul className="buttons flex justify-around py-6">
               <li className="p-4">
@@ -436,9 +436,9 @@ function MyWorks() {
           </Paper>
         </Grid>
 
-        <Grid item xs={12} md={6}>
-          <Paper className={classes.paper}>
-            <h2>SWELL VERIFICATION PAGE DESING PROJECT</h2>
+        <Grid item xs={12} md={6} className="grid-left">
+          <Paper className={classes.paper}  style={{ borderRadius: "10px", boxShadow: "inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255), 0.3em 0.3em 1em rgba(0, 0, 0, 0.3)" }}>
+            <h2 className="my-works-h2" >SWELL VERIFICATION PAGE DESING PROJECT</h2>
 
             <ul className="buttons flex justify-around py-6">
               <li className="p-4">
@@ -485,9 +485,9 @@ function MyWorks() {
           </Paper>
         </Grid>
 
-        <Grid item xs={12} md={6}>
-          <Paper className={classes.paper}>
-            <h2>FOLLOWUPS.CO PAGE DESIGN PROJECT</h2>
+        <Grid item xs={12} md={6} className="grid-piece">
+          <Paper className={classes.paper}  style={{ borderRadius: "10px", boxShadow: "inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255), 0.3em 0.3em 1em rgba(0, 0, 0, 0.3)" }}>
+            <h2 className="my-works-h2">FOLLOWUPS.CO PAGE DESIGN PROJECT</h2>
 
             <ul className="buttons flex justify-around py-6">
               <li className="p-4">
@@ -533,9 +533,9 @@ function MyWorks() {
           </Paper>
         </Grid>
 
-        <Grid item xs={12} md={6}>
-          <Paper className={classes.paper}>
-            <h2>PORTFOLIO WEBSITE PROJECT (CURRENTLY BEING VIEWED)</h2>
+        <Grid item xs={12} md={6} className="grid-piece">
+          <Paper className={classes.paper}  style={{ borderRadius: "10px", boxShadow: "inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255), 0.3em 0.3em 1em rgba(0, 0, 0, 0.3)" }}>
+            <h2 className="my-works-h2">PORTFOLIO WEBSITE PROJECT (CURRENTLY BEING VIEWED)</h2>
 
             <ul className="buttons flex justify-center py-6">
               <li className="p-4">
