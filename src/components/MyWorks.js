@@ -249,12 +249,12 @@ function MyWorks() {
             <ul className="buttons flex justify-around py-6">
               <li className="p-4">
                 <Button variant="contained">
-                  <a href="https://github.com/mertefe95/js-social-project">View on Github</a>
+                  <a href="https://github.com/mertefe95/jssocial-nextjs-remake">View on Github</a>
                 </Button>
               </li>
               <li className="p-4">
                 <Button variant="contained">
-                  <a href="https://js-social-project.vercel.app/">View on Vercel</a>
+                  <a href="https://jssocial-nextjs-remake.vercel.app/">View on Vercel</a>
                 </Button>
               </li>
               <li className="p-4">
@@ -273,6 +273,9 @@ function MyWorks() {
               </li>
               <li className="py-1">
                 <Chip label="Material UI" color="primary" />
+              </li>
+              <li className="py-1">
+                <Chip label="Stripe" color="primary" />
               </li>
             </ul>
 
