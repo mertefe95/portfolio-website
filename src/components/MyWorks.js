@@ -88,6 +88,73 @@ function MyWorks() {
           </Paper>
         </Grid>
 
+        <Grid item xs={12} md={7} style={{ paddingTop: "50px"}} className="grid-piece">
+          <Paper className={classes.paper} style={{ boxShadow: "inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255), 0.3em 0.3em 1em rgba(0, 0, 0, 0.3)" }}>
+            <h2 className="my-works-h2">TODO APP PROJECT ( FULLSTACK )</h2>
+
+            <ul className="buttons flex justify-around py-6 sm:justify-center sm:items-center sm:flex-col">
+              <li className="p-4">
+                <Button variant="contained">
+                  <a href="https://github.com/mertefe95/fullstack-todo-app-client">
+                    View Client Code on Github
+                  </a>
+                </Button>
+              </li>
+              <li className="p-4">
+                <Button variant="contained">
+                  <a href="https://github.com/mertefe95/fullstack-todo-app-server">
+                    View Backend Code on Github
+                  </a>
+                </Button>
+              </li>
+              <li className="p-4">
+                <Button variant="contained">
+                  <a href="https://fullstack-todo-app-client.vercel.app/">View on Vercel</a>
+                </Button>
+              </li>
+              <li className="p-4">
+                <Button variant="contained">
+                  <a href="/images/todoapp.png">View As Image</a>
+                </Button>
+              </li>
+            </ul>
+
+            <ul className="flex flex-col justify-around items-center">
+              <li className="py-1">
+                <Chip label="React JS ( CRA + ReactRouterDom + Axios)" color="primary" />
+              </li>
+              <li className="py-1">
+                <Chip label="Node JS + Fastify + PostgreSQL (Heroku Postgres) + TypeScript + Swagger" color="primary" />
+              </li>
+    
+              <li className="py-1">
+                <Chip label="CSS" color="primary" />
+              </li>
+              <li className="py-1">
+                <Chip label="Material UI" color="primary" />
+              </li>
+              <li className="py-1">
+                <Chip label="React Bootstrap" color="primary" />
+              </li>
+            </ul>
+
+            <ul className="flex flex-col justify-around pt-4">
+              <li className="py-1">
+                <Chip label="Vercel" color="secondary" />
+              </li>
+              <li className="py-1">
+                <Chip label="Heroku" color="secondary" />
+              </li>
+              <li className="py-1">
+                <Chip label="Git" color="secondary" />
+              </li>
+              <li className="py-1">
+                <Chip label="Github" color="secondary" />
+              </li>
+            </ul>
+          </Paper>
+        </Grid>
+
       <Grid item xs={12} md={7} className="grid-piece">
           <Paper className={classes.paper}  style={{ borderRadius: "10px", boxShadow: "inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255), 0.3em 0.3em 1em rgba(0, 0, 0, 0.3)" }}>
             <h2 className="my-works-h2">SOCIALIZE CHAT APP</h2>
@@ -244,7 +311,7 @@ function MyWorks() {
 
         <Grid item xs={12} md={6} className="grid-left">
           <Paper className={classes.paper} style={{ borderRadius: "10px", boxShadow: "inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255), 0.3em 0.3em 1em rgba(0, 0, 0, 0.3)" }}>
-            <h2 className="my-works-h2">JS.SOCIAL PROJECT </h2>
+            <h2 className="my-works-h2">JS.SOCIAL PROJECT</h2>
 
             <ul className="buttons flex justify-around py-6">
               <li className="p-4">

@@ -18833,7 +18833,7 @@ video {
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 .header {
-  opacity: 0.7;
+  opacity: 0.5;
   font-family: "Playfair Display";
 }
 
@@ -18854,22 +18854,13 @@ html {
 }
 
 .myworks-body {
-  font-family: "Krona One";
+  font-family: "Staatliches";
 }
 
-.grid-right {
-  padding-right: 60px;
-}
-
-.grid-left {
-  padding-left: 60px;
-}
-
-@media only screen and (max-width: 1000px) {
-  .grid-right,
-  .grid-left {
-    padding: 0;
-  }
+.my-works-h2 {
+  color: rgb(46, 43, 43);
+  font-size: 21px;
+  letter-spacing: 1.2px;
 }
 
 @media (max-width: 640px) {
