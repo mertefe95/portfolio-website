@@ -26,6 +26,68 @@ function MyWorks() {
   return (
     <main className="myworks-body">
       <Grid container spacing={8} style={{ paddingRight: "20px", paddingLeft: "20px" }} justify="center" alignItems="center">
+
+      <Grid item xs={12} md={7} style={{ paddingTop: "50px"}} className="grid-piece">
+          <Paper className={classes.paper} style={{ boxShadow: "inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255), 0.3em 0.3em 1em rgba(0, 0, 0, 0.3)" }}>
+            <h2 className="my-works-h2">VASTGOEDVIJVER PROJECT ( CLIENT PROJECT / CONTRIBUTED )</h2>
+            <ul className="list-disc text-left mt-10">
+              <li><p className="lowercase">This was a Client Project to Netherlands Real Estate Company. </p></li>
+              <li><p>I've created the Form where a user uploads drag and drop images and enter his info about his Property.</p></li>
+              <li><p>I've created the code to save all info and images into Firebase collections properly.</p></li>
+              <li><p>I've managed to create Front End Fetching for All User documents to show them.</p></li>
+              <li><p>I've created dynamic route with Next.js and by getting the query I've created dynamic post showing.</p></li>
+            </ul>
+            <ul className="buttons flex justify-around py-6 sm:justify-center sm:items-center sm:flex-col">
+              <li className="p-4">
+                <Button variant="contained">
+                  <a href="https://github.com/lucswart/Vastgoedvijver">
+                    View Client Code on Github (Private Repo)
+                  </a>
+                </Button>
+              </li>
+              <li className="p-4">
+                {/** not good */}
+                <Button variant="contained">
+                  <a href="https://vastgoedvijver.vercel.app/">View on Vercel</a>
+                </Button>
+              </li>
+              <li className="p-4">
+                <Button variant="contained">
+                  <a href="/images/vastgoedvijver.png">View As Image</a>
+                </Button>
+              </li>
+            </ul>
+
+            <ul className="flex flex-col justify-around items-center">
+              <li className="py-1">
+                <Chip label="React JS ( Next JS + Axios)" color="primary" />
+              </li>
+              <li className="py-1">
+                <Chip label="Firebase" color="primary" />
+              </li>
+    
+              <li className="py-1">
+                <Chip label="SCSS" color="primary" />
+              </li>
+              <li className="py-1">
+                <Chip label="React Bootstrap" color="primary" />
+              </li>
+            </ul>
+
+            <ul className="flex flex-col justify-around pt-4">
+              <li className="py-1">
+                <Chip label="Vercel" color="secondary" />
+              </li>
+              <li className="py-1">
+                <Chip label="Git" color="secondary" />
+              </li>
+              <li className="py-1">
+                <Chip label="Github" color="secondary" />
+              </li>
+            </ul>
+          </Paper>
+        </Grid>
+      
       <Grid item xs={12} md={7} style={{ paddingTop: "50px"}} className="grid-piece">
           <Paper className={classes.paper} style={{ boxShadow: "inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255), 0.3em 0.3em 1em rgba(0, 0, 0, 0.3)" }}>
             <h2 className="my-works-h2">BLOG APP PROJECT ( FULLSTACK )</h2>
@@ -38,13 +100,7 @@ function MyWorks() {
                   </a>
                 </Button>
               </li>
-              <li className="p-4">
-                <Button variant="contained">
-                  <a href="https://github.com/mertefe95/revised-blogapp-server">
-                    View Backend Code on Github
-                  </a>
-                </Button>
-              </li>
+
               <li className="p-4">
                 {/** not good */}
                 <Button variant="contained">
