@@ -31,11 +31,11 @@ function MyWorks() {
           <Paper className={classes.paper} style={{ boxShadow: "inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255), 0.3em 0.3em 1em rgba(0, 0, 0, 0.3)" }}>
             <h2 className="my-works-h2">VASTGOEDVIJVER PROJECT ( CLIENT PROJECT / CONTRIBUTED )</h2>
             <ul className="list-disc text-left mt-10">
-              <li><p className="lowercase">This was a Client Project to Netherlands Real Estate Company. </p></li>
-              <li><p>I've created the Form where a user uploads drag and drop images and enter his info about his Property.</p></li>
-              <li><p>I've created the code to save all info and images into Firebase collections properly.</p></li>
-              <li><p>I've managed to create Front End Fetching for All User documents to show them.</p></li>
-              <li><p>I've created dynamic route with Next.js and by getting the query I've created dynamic post showing.</p></li>
+              <li><p className="tracking-wider">This was a Client Project to Netherlands Real Estate Company. </p></li>
+              <li><p className="tracking-wider">I've created the Form where a user uploads drag and drop images and enter his info about his Property.</p></li>
+              <li><p className="tracking-wider">I've created the code to save all info and images into Firebase collections/documents properly.</p></li>
+              <li><p className="tracking-wider">I've managed to create Front End Fetching for All User documents to show them.</p></li>
+              <li><p className="tracking-wider">I've created dynamic route with Next.js and by getting the query I've created specific dynamic post rendering.</p></li>
             </ul>
             <ul className="buttons flex justify-around py-6 sm:justify-center sm:items-center sm:flex-col">
               <li className="p-4">
