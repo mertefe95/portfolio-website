@@ -226,7 +226,7 @@ function MyWorks() {
               <li className="p-4">
                 {/** not good */}
                 <Button variant="contained">
-                  <a href="https://socialize-live-chat-app.herokuapp.com">View on Heroku</a>
+                  <a href="https://socialize-live-chat.herokuapp.com/">View on Heroku</a>
                 </Button>
               </li>
               <li className="p-4">
