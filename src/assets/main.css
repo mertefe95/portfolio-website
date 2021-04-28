@@ -18832,6 +18832,8 @@ video {
 
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+
 .header {
   opacity: 0.5;
   font-family: "Playfair Display";
@@ -18842,11 +18844,11 @@ html {
 }
 
 .main {
-  font-family: "Staatliches";
+  font-family: "Raleway";
 }
 
 .main h2 {
-  font-family: "Staatliches";
+  font-family: "Raleway";
 }
 
 .footer {
@@ -18861,6 +18863,28 @@ html {
   color: rgb(46, 43, 43);
   font-size: 21px;
   letter-spacing: 1.2px;
+}
+
+p {
+  font-size: 0.9rem;
+}
+
+.framework-ul {
+}
+
+@media only screen and (max-width: 1199px) {
+}
+
+@media only screen and (max-width: 993px) {
+}
+
+@media only screen and (max-width: 768px) {
+}
+
+@media only screen and (max-width: 575px) {
+}
+
+@media only screen and (max-width: 360px) {
 }
 
 @media (max-width: 640px) {

@@ -15,6 +15,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Krona+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
 
 .header {
   opacity: 0.5;
@@ -26,22 +27,102 @@ html {
 }
 
 .main {
-  font-family: "Staatliches";
+  font-family: "Raleway";
 }
 
 .main h2 {
-  font-family: "Staatliches";
+  font-family: "Raleway";
 }
+
 .footer {
   opacity: 0.3;
 }
 
 .myworks-body {
-  font-family: "Staatliches";
+  font-family: "Raleway";
+  font-weight: 600;
 }
 
 .my-works-h2 {
   color: rgb(46, 43, 43);
   font-size: 21px;
   letter-spacing: 1.2px;
+  font-family: "Krona One";
+}
+
+.grid-inner-text {
+  font-weight: bold !important;
+}
+
+p {
+  font-size: 14px;
+}
+
+.MuiChip-label {
+  font-size: 10px !important;
+}
+
+.framework-ul {
+}
+
+.rounded-list-item {
+  border-radius: 4px;
+}
+
+.paper {
+  width: 430px;
+  min-height: 650px;
+  padding: 50px;
+  text-align: center;
+  max-height: 850px;
+}
+
+@media only screen and (max-width: 1199px) {
+  .leftside-paper {
+    margin-left: 30px;
+  }
+}
+
+@media only screen and (max-width: 993px) {
+  .leftside-paper {
+    margin-left: 0px;
+  }
+
+  .grid-container {
+    padding: 0px;
+  }
+
+  .rightside-paper {
+    position: relative;
+    right: 10px;
+  }
+
+  .paper {
+    width: 350px !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+}
+
+@media only screen and (max-width: 575px) {
+  .rightside-paper {
+    position: relative;
+    right: 0px;
+  }
+
+  .paper {
+    margin-left: 55px;
+    width: 330px !important;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .paper {
+    margin-left: 0px;
+    position: relative;
+    right: 5px;
+  }
+}
+- @media only screen and (max-width: 360px) {
 }
