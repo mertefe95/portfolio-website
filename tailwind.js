@@ -10,11 +10,11 @@ module.exports = {
   separator: ':',
   theme: {
     screens: {
-      sm: {'max': '640px'},
-      md: {'max': '768px'},
-      lg: {'max': '1024px'},
-      xl: {'max': '1280px'},
       xxl: {'max': '1400px'},
+      xl: {'max': '1280px'},
+      lg: {'max': '1024px'},
+      md: {'max': '768px'},
+      sm: {'max': '640px'},
     },
     colors: {
       transparent: 'transparent',
