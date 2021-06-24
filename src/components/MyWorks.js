@@ -41,14 +41,15 @@ function MyWorks() {
                   <a href="https://github.com/mertefe95/jssocial-nextjs-remake">View on Github</a>
               </li>
               <li className="p-4 lg:p-3 bg-indigo-700 mx-1 rounded-list-item">
-                  <a href="https://jssocial-nextjs-remake.vercel.app/">View on Website</a>
+                  <a href="https://js.social">View on Website</a>
               </li>
               <li className="p-4 lg:p-3 bg-indigo-700 rounded-list-item">
                   <a href="/images/js-social.png">View As Image</a>
               </li>
             </ul>
             <ul className="list-disc text-center">
-              <li className="list-none pb-3"><p className="tracking-wider">Worked as Front End Developer.</p></li>
+              <li className="list-none pb-3"><p className="tracking-wider">Project Info: A membership-based Javascript Community,</p></li>
+              <li className="list-none pb-3"><p className="tracking-wider">Worked as Front End Developer,</p></li>
               <li className="list-none pb-3"><p className="tracking-wider">Client Project to Upwork. </p></li>
             </ul>
             <ul className="flex flex-col justify-around items-center">
@@ -77,10 +78,10 @@ function MyWorks() {
             <ul className="list-disc list-inside">
               <li className="list-none mt-5 mb-2"></li>
               <li className="list-none mt-5 mb-2"><h3 className="tracking-wider underline font-bold text-black">What did I do in this Project ?: </h3></li>
-              <li><p className="tracking-wider text-left inline">Sending Form Data to Firebase and Storing it.</p></li>
-              <li><p className="tracking-wider text-left inline">Implementing Drag & Drop React Library and Uploading Multiple Images to Firebase Storage.</p></li>
-              <li><p className="tracking-wider text-left inline">I've managed to create Front End Fetching for All User documents to show them.</p></li>
-              <li><p className="tracking-wider text-left inline">I've created dynamic route with Next.js and by getting the query I've created specific dynamic post rendering.</p></li>
+              <li><p className="tracking-wider text-left inline">Switched the project from Static HTML to Next.js</p></li>
+              <li><p className="tracking-wider text-left inline">Implementing TailwindCSS and TailwindUI components for better looking page designs and renewed them.</p></li>
+              <li><p className="tracking-wider text-left inline">Created a contact form and created success/error modals, then saved that form into Airtable.</p></li>
+              <li><p className="tracking-wider text-left inline">Created Stripe Checkout for User Programmes.</p></li>
             </ul>
             </Collapsible>
           </Paper>
@@ -96,15 +97,15 @@ function MyWorks() {
                   </a>
               </li>
               <li className="p-4 lg:p-3 mx-2 sm:my-2 lg:my-0 bg-indigo-700 rounded-list-item">
-                  <a  href="https://vastgoedvijver.vercel.app/">View on Website</a>
+                  <a  href="https://vastgoedvijver.com/">View on Website</a>
               </li>
               <li className="p-4 lg:p-3 bg-indigo-700 rounded-list-item">
                   <a  href="/images/vastgoedvijver.png">View As Image</a>
               </li>
             </ul>
             <ul className="list-disc text-center">
-              <li className="list-none pb-3"><p className="tracking-wider">Worked as Front End Developer.</p></li>
-              <li className="list-none pb-3"><p className="tracking-wider">Client Project to Netherlands Real Estate Company. </p></li>
+              <li className="list-none pb-3"><p className="tracking-wider">Project Info: Netherlands based Real Estate Project,</p></li>
+              <li className="list-none pb-3"><p className="tracking-wider">Worked under Byte24 as Front End Developer.</p></li>
             </ul>
               <ul className="flex flex-row sm:flex-col framework-ul justify-around items-center">
               <li className="py-1 px-1">
